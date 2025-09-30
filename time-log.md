@@ -26,9 +26,9 @@ The expected minimum amount of time each Sprint for each category is as follows:
 
 |Date      |Start Time|Category|Description                                 |Total Minutes|
 |----------|----------|:------:|--------------------------------------------|:-----------:|
-|9/29/2025 |5:18 PM   |TP      |Learning to use React Native                |             |
-|          |          |        |                                            |             |
-|          |          |        |                                            |             |
+|9/29/2025 |5:18 PM   |TP      |Learning to use React Native                |15           |
+|          |5:50 PM   |        |                                            |8            |
+|          |6:40 PM   |        |                                            |61           |
 |          |          |        |                                            |             |
 |          |          |        |                                            |             |
 |          |          |        |                                            |             |
@@ -40,6 +40,6 @@ _Note: Add more rows as needed._
 |Category                       |Total Time (Hours:Minutes)|
 |-------------------------------|:------------------------:|
 |IM - Individual Module         |                          |
-|TP - Team Project              |                          |
+|TP - Team Project              |1:24                      |
 |MTG - Class Meetings           |                          |
 |**TOTAL**                      |                          |

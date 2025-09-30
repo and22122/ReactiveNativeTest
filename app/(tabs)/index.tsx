@@ -1,5 +1,5 @@
 import { Image } from 'expo-image';
-import { Platform, StyleSheet } from 'react-native';
+import { Platform, StyleSheet, View, Text, ScrollView, TextInput, Button } from 'react-native';
 
 import { HelloWave } from '@/components/hello-wave';
 import ParallaxScrollView from '@/components/parallax-scroll-view';
@@ -7,7 +7,12 @@ import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
 import { Link } from 'expo-router';
 
+import React, {useState} from 'react'
+
 export default function HomeScreen() {
+  const [clicked, setClicked] = useState(true);
+
+
   return (
     <ParallaxScrollView
       headerBackgroundColor={{ light: '#A1CEDC', dark: '#1D3D47' }}
@@ -17,6 +22,15 @@ export default function HomeScreen() {
           style={styles.reactLogo}
         />
       }>
+      <ThemedView>
+        <Button
+          onPress = {() => {
+            setClicked(false);
+          }}
+          disabled={!clicked}
+          title={clicked ? 'Click me!' : 'Thanks for clicking me!'}
+        />
+      </ThemedView>
       <ThemedView style={styles.titleContainer}>
         <ThemedText type="title">Welcome!</ThemedText>
         <HelloWave />
