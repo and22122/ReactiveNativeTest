@@ -29,7 +29,7 @@ The expected minimum amount of time each Sprint for each category is as follows:
 |9/29/2025 |5:18 PM   |TP      |Learning to use React Native                |15           |
 |          |5:50 PM   |        |                                            |8            |
 |          |6:40 PM   |        |                                            |61           |
-|          |          |        |                                            |             |
+|10/2/2025 |7:08 PM   |TP      |Learning to use React Native                |25           |
 |          |          |        |                                            |             |
 |          |          |        |                                            |             |
 
